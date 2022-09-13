@@ -52,17 +52,17 @@ with open(file_to_load) as election_data:
         ## Increment candidate vote by 1 each time we move through a row (needs to be in for loop but outside of if statement)
         candidate_votes[candidate_name] += 1
 
-        ## Iterate through the candidate options list
-        for candidate_name in candidate_votes:
+## Iterate through the candidate options list
+    for candidate_name in candidate_votes:
 
-            ## Get the vote count of a candidate from the candidate_votes dictionary
-            votes = candidate_votes[candidate_name]
+        ## Get the vote count of a candidate from the candidate_votes dictionary
+        votes = candidate_votes[candidate_name]
 
-            ## Calculate the percentage of votes
-            vote_percentage = float(votes)/float(total_votes) * 100
+        ## Calculate the percentage of votes
+        vote_percentage = float(votes)/float(total_votes) * 100
 
-            ## Print the candidate name and percentage of votes
-            print(f"{candidate_name}: received {vote_percentage}% of the vote.")
+        ## Print the candidate name and percentage of votes
+        print(f"{candidate_name}: received {vote_percentage:.1f}% of the vote.")
 
 ## Print the total votes
 print(total_votes)
