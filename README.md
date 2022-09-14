@@ -38,10 +38,12 @@ Based on these results, the county with the largest number of votes was Denver, 
 Below is an overall summary of the election results that were printed the command line and written on a text file. This text file can also be accessed in the Analysis folder of this repository.
 
 ![election_analysis_command](https://user-images.githubusercontent.com/96188669/190229413-09ecedcb-b3ce-4af1-b7c5-e3793f108ee1.png)
+
 Election resulted printed on the command terminal
 
 
 ![election_analysis](https://user-images.githubusercontent.com/96188669/190226179-9895c63c-55ee-41da-b12b-e0b5ebaaabc9.png)
+
 Election results written to a text file.
 
 ### Election Audit Summary
